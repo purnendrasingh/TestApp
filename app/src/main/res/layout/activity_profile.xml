@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome Again"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/tv_msg"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Image Url:-"
+        android:id="@+id/tv_url"
+        android:layout_below="@id/tv_msg"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:autoLink="web"
+        android:linksClickable="true"
+        android:layout_margin="20dp"
+        android:layout_below="@id/tv_url"
+        android:textColor="@color/colorAccent"
+        android:id="@+id/tv_url_value"/>
+</RelativeLayout>

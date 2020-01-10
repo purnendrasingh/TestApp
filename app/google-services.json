@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "391141045808",
+    "firebase_url": "https://visitordairy.firebaseio.com",
+    "project_id": "visitordairy",
+    "storage_bucket": "visitordairy.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:391141045808:android:fbaaffacd464d817",
+        "android_client_info": {
+          "package_name": "com.example.visitordairy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "391141045808-35fkkeq860htakulskvhvr1sgv5i8opn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.visitordairy",
+            "certificate_hash": "28654ba5ac2f902e5a6cf2e06ee49c9a1beac236"
+          }
+        },
+        {
+          "client_id": "391141045808-j6vg59h1lrgdjs393rafcng22am9qagi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3nAPFLD69z08CsLZ2_0BF-NuMXUlLZNI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "391141045808-j6vg59h1lrgdjs393rafcng22am9qagi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
